@@ -17,16 +17,18 @@ defmodule ActiveAlice.Mixfile do
           Alice.Handlers.Random,
           Alice.Handlers.OhYouSo,
           Alice.Handlers.GoogleImages,
-          Alice.Handlers.Karma
+          Alice.Handlers.Karma,
+          Alice.Handlers.Shizzle
         ] } ]
   end
 
   defp deps do
      [
        {:websocket_client, github: "jeremyong/websocket_client"},
-       {:alice,                  "~> 0.1.1"},
+       {:alice,                  "~> 0.1.4"},
        {:alice_google_images,    "~> 0.0.1"},
-       {:alice_karma,            "~> 0.0.1"}
+       {:alice_karma,            "~> 0.0.1"},
+       {:alice_shizzle,          "~> 0.0.1"}
      ]
   end
 end
