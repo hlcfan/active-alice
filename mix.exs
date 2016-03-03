@@ -28,7 +28,7 @@ defmodule ActiveAlice.Mixfile do
        {:alice,                  "~> 0.1.4"},
        {:alice_google_images,    "~> 0.0.1"},
        {:alice_karma,            "~> 0.0.1"},
-       {:alice_shizzle,          "~> 0.0.1"}
+       {:alice_shizzle,          "~> 0.0.4"}
      ]
   end
 end
