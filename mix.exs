@@ -3,7 +3,7 @@ defmodule ActiveAlice.Mixfile do
 
   def project do
     [ app: :active_alice,
-      version: "0.0.1",
+      version: "0.1.0",
       elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -25,10 +25,11 @@ defmodule ActiveAlice.Mixfile do
   defp deps do
      [
        {:websocket_client, github: "jeremyong/websocket_client"},
-       {:alice,                  "~> 0.1.4"},
-       {:alice_google_images,    "~> 0.0.1"},
-       {:alice_karma,            "~> 0.0.1"},
-       {:alice_shizzle,          "~> 0.0.1"}
+       # {:alice, path: "~/projects/alice/alice"}
+       {:alice,                  "~> 0.2.3"},
+       {:alice_google_images,    "~> 0.1.0"},
+       {:alice_karma,            "~> 0.1.0"},
+       {:alice_shizzle,          "~> 0.1.0"}
      ]
   end
 end
