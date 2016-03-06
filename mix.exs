@@ -27,7 +27,7 @@ defmodule ActiveAlice.Mixfile do
        {:websocket_client, github: "jeremyong/websocket_client"},
        # {:alice, path: "~/projects/alice/alice"}
        {:alice,                  "~> 0.2.3"},
-       {:alice_google_images,    "~> 0.1.0"},
+       {:alice_google_images,    "~> 0.1.1"},
        {:alice_karma,            "~> 0.1.0"},
        {:alice_shizzle,          "~> 0.1.0"}
      ]
