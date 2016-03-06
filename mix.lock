@@ -1,5 +1,5 @@
 %{"alice": {:hex, :alice, "0.2.3"},
-  "alice_google_images": {:hex, :alice_google_images, "0.1.0"},
+  "alice_google_images": {:hex, :alice_google_images, "0.1.1"},
   "alice_karma": {:hex, :alice_karma, "0.1.0"},
   "alice_shizzle": {:hex, :alice_shizzle, "0.1.0"},
   "certifi": {:hex, :certifi, "0.3.0"},
