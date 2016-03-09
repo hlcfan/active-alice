@@ -2,6 +2,7 @@
   "alice_google_images": {:hex, :alice_google_images, "0.1.1"},
   "alice_karma": {:hex, :alice_karma, "0.1.0"},
   "alice_shizzle": {:hex, :alice_shizzle, "0.1.0"},
+  "alice_xkcd": {:hex, :alice_xkcd, "0.0.2"},
   "certifi": {:hex, :certifi, "0.3.0"},
   "connection": {:hex, :connection, "1.0.2"},
   "exjsx": {:hex, :exjsx, "3.1.0"},
@@ -16,4 +17,5 @@
   "redix": {:hex, :redix, "0.3.5"},
   "slack": {:hex, :slack, "0.4.2"},
   "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
-  "websocket_client": {:git, "https://github.com/jeremyong/websocket_client.git", "f6892c8b55004008ce2d52be7d98b156f3e34569", []}}
+  "websocket_client": {:git, "https://github.com/jeremyong/websocket_client.git", "f6892c8b55004008ce2d52be7d98b156f3e34569", []},
+  "xkcd": {:hex, :xkcd, "0.0.1"}}

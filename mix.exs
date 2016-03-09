@@ -3,7 +3,7 @@ defmodule ActiveAlice.Mixfile do
 
   def project do
     [ app: :active_alice,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -18,7 +18,8 @@ defmodule ActiveAlice.Mixfile do
           Alice.Handlers.OhYouSo,
           Alice.Handlers.GoogleImages,
           Alice.Handlers.Karma,
-          Alice.Handlers.Shizzle
+          Alice.Handlers.Shizzle,
+          Alice.Handlers.Xkcd
         ] } ]
   end
 
@@ -29,7 +30,8 @@ defmodule ActiveAlice.Mixfile do
        {:alice,                  "~> 0.2.3"},
        {:alice_google_images,    "~> 0.1.1"},
        {:alice_karma,            "~> 0.1.0"},
-       {:alice_shizzle,          "~> 0.1.0"}
+       {:alice_shizzle,          "~> 0.1.0"},
+       {:alice_xkcd,             "~> 0.0.1"}
      ]
   end
 end
