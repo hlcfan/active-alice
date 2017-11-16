@@ -30,8 +30,8 @@ defmodule ActiveAlice.Mixfile do
 
   defp deps do
      [
-       # {:alice, github: "alice-bot/alice", branch: "master", override: true},
-       {:alice,               "~> 0.3"},
+       {:alice, github: "alice-bot/alice", branch: "master", override: true},
+       # {:alice,               "~> 0.3"},
        {:alice_google_images, "~> 0.1"},
        {:alice_karma,         "~> 0.1"},
        {:alice_shizzle,       "~> 0.1"},
