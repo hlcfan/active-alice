@@ -20,6 +20,7 @@ defmodule ActiveAlice.Mixfile do
           Alice.Handlers.Karma,
           Alice.Handlers.Shizzle,
           Alice.Handlers.Xkcd
+          Alice.Handlers.Wiki
         ] } ]
   end
 
@@ -31,7 +32,8 @@ defmodule ActiveAlice.Mixfile do
        {:alice_google_images,    "~> 0.1.1"},
        {:alice_karma,            "~> 0.1.0"},
        {:alice_shizzle,          "~> 0.1.1"},
-       {:alice_xkcd,             "~> 0.0.1"}
+       {:alice_xkcd,             "~> 0.0.1"},
+       {:alice_wiki,             "~> 1.0.0"}
      ]
   end
 end
